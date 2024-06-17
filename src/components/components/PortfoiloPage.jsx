@@ -5,49 +5,50 @@ import travelplannerProject3 from "../../assets/img/portfolio/travelplanner.png"
 import dietmateProject4 from "../../assets/img/portfolio/dietmate.png"
 import { Icon } from "@iconify/react";
 
- 
+import AOS from "aos";
+import "aos/dist/aos.css";
 const PortfolioPage = () =>{
 
 
-  // const portfolioContainerRef = useRef(null);
-  // const portfolioFiltersRef = useRef([]);
+  const portfolioContainerRef = useRef(null);
+  const portfolioFiltersRef = useRef([]);
 
-  // useEffect(() => {
-  //   AOS.init();
+  useEffect(() => {
+    AOS.init(); 
 
-  //   const portfolioContainer = portfolioContainerRef.current;
-  //   if (portfolioContainer) {
-  //     const portfolioIsotope = new Isotope(portfolioContainer, {
-  //       itemSelector: '.portfolio-item',
-  //     });
+    const portfolioContainer = portfolioContainerRef.current;
+    if (portfolioContainer) {
+      const portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: '.portfolio-item',
+      });
 
-  //     const onFilterClick = (e, filter) => {
-  //       e.preventDefault();
-  //       portfolioFiltersRef.current.forEach((el) => {
-  //         el.classList.remove('filter-active');
-  //       });
-  //       filter.classList.add('filter-active');
+      const onFilterClick = (e, filter) => {
+        e.preventDefault();
+        portfolioFiltersRef.current.forEach((el) => {
+          el.classList.remove('filter-active');
+        });
+        filter.classList.add('filter-active');
 
-  //       portfolioIsotope.arrange({
-  //         filter: filter.getAttribute('data-filter'),
-  //       });
-  //       portfolioIsotope.on('arrangeComplete', () => {
-  //         AOS.refresh();
-  //       });
-  //     };
+        portfolioIsotope.arrange({
+          filter: filter.getAttribute('data-filter'),
+        });
+        portfolioIsotope.on('arrangeComplete', () => {
+          AOS.refresh();
+        });
+      };
 
-  //     portfolioFiltersRef.current.forEach((filter) => {
-  //       filter.addEventListener('click', (e) => onFilterClick(e, filter));
-  //     });
+      portfolioFiltersRef.current.forEach((filter) => {
+        filter.addEventListener('click', (e) => onFilterClick(e, filter));
+      });
 
-  //     // Cleanup event listeners on component unmount
-  //     return () => {
-  //       portfolioFiltersRef.current.forEach((filter) => {
-  //         filter.removeEventListener('click', (e) => onFilterClick(e, filter));
-  //       });
-  //     };
-  //   }
-  // }, []);
+      // Cleanup event listeners on component unmount
+      return () => {
+        portfolioFiltersRef.current.forEach((filter) => {
+          filter.removeEventListener('click', (e) => onFilterClick(e, filter));
+        });
+      };
+    }
+  }, []);
 
   return (
     <section id="portfolio" className="portfolio section-bg">
@@ -57,7 +58,7 @@ const PortfolioPage = () =>{
           <h2>Portfolio</h2>
         </div>
 
-        {/* <div className="row">
+        <div className="row">
           <div className="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" className="filter-active" ref={(el) => (portfolioFiltersRef.current[0] = el)}>All</li>
@@ -66,10 +67,9 @@ const PortfolioPage = () =>{
               <li data-filter=".filter-web" ref={(el) => (portfolioFiltersRef.current[3] = el)}>Web</li>
             </ul>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className="row portfolio-container" ref={portfolioContainerRef} data-aos="fade-up" data-aos-delay="200"> */}
-        <div className="row portfolio-container"  data-aos="fade-up" data-aos-delay="200">
+        <div className="row portfolio-container" ref={portfolioContainerRef} data-aos="fade-up" data-aos-delay="200">
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img src={wordleProject1} className="img-fluid" alt="" />
