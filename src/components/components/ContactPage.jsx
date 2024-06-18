@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Icon } from "@iconify/react";
+
 
 const ContactPage = () =>{
     return (
@@ -13,13 +15,13 @@ const ContactPage = () =>{
         </div>
             <div className="info" style={{background:"#eaeaea"}}>
               <div className="address">
-                <i className="bi bi-geo-alt"></i>
+                <i><Icon icon="bi:geo-alt" /></i>
                 <h4>Location:</h4>
                 <p  style={{color:"#272829"}}>Melbourne Australia</p>
               </div>
 
               <div className="email">
-                <i className="bi bi-envelope"></i>
+                <i ><Icon icon="bi:envelope-fill" /></i>
                 <h4>Message Me:</h4>
                 <p><a href="https://www.linkedin.com/in/misa-k-609305205/" style={{color:"#272829", textDecoration:"underline",}}>Connect via Linkedin</a></p>
               </div>

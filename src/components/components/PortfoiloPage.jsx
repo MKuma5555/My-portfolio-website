@@ -51,7 +51,7 @@ const PortfolioPage = () =>{
   }, []);
 
   return (
-    <section id="portfolio" className="portfolio section-bg">
+    <section id="portfolio" className="portfolio section-bg" style={{height:"100%"}}>
       <div className="container" data-aos="fade-up">
 
         <div className="section-title">
