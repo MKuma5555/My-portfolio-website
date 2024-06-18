@@ -10,7 +10,7 @@ const FooterPage = () =>{
             
         <footer id="footer">
             <div className="container">
-            <h3>Misa Kumagai</h3>
+            <h3>Misa </h3>
             <div className="social-links">
                 <a href="https://github.com/MKuma5555" className="github"><Icon icon="bx:bxl-github"  width="1.2em" height="1.2em"/></a>
                 <a href="#" className="instagram"><Icon icon="bi:instagram" width="1.2em" height="1.2em" /></a>
