@@ -18,12 +18,13 @@ const ContactPage = () =>{
                 <i><Icon icon="bi:geo-alt" /></i>
                 <h4>Location:</h4>
                 <p  style={{color:"#272829"}}>Melbourne Australia</p>
+                
               </div>
 
               <div className="email">
                 <i ><Icon icon="bi:envelope-fill" /></i>
                 <h4>Message Me:</h4>
-                <p><a href="https://www.linkedin.com/in/misa-k-609305205/" style={{color:"#272829", textDecoration:"underline",}}>Connect via Linkedin</a></p>
+                <p><button onClick={() => window.location = 'mailto:misakumagai.se@gmail.com'}>Contact Me</button></p>
               </div>
             </div>
 

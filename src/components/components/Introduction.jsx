@@ -25,7 +25,7 @@ const Introduction = () =>{
         <>
          <section id="hero" className="d-flex flex-column justify-content-center">
             <div className="container" data-aos="zoom-in" data-aos-delay="100" >
-            <h1>Name xxxxxxx</h1>
+            <h1>Misa Kumagai</h1>
             <p>I'm <span className="typed"></span></p>
             <div className="social-links">
                 <a href="https://github.com/MKuma5555" className="github"><Icon icon="bx:bxl-github"  width="35" height="35"/></a>

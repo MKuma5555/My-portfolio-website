@@ -63,7 +63,7 @@ const PortfolioPage = () =>{
             <ul id="portfolio-flters">
               <li data-filter="*" className="filter-active" ref={(el) => (portfolioFiltersRef.current[0] = el)}>All</li>
               <li data-filter=".filter-app" ref={(el) => (portfolioFiltersRef.current[1] = el)}>Full stack</li>
-              <li data-filter=".filter-card" ref={(el) => (portfolioFiltersRef.current[2] = el)}>Simple</li>
+              <li data-filter=".filter-card" ref={(el) => (portfolioFiltersRef.current[2] = el)}>Game</li>
               <li data-filter=".filter-web" ref={(el) => (portfolioFiltersRef.current[3] = el)}>Web</li>
             </ul>
           </div>
