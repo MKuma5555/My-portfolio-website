@@ -11,7 +11,7 @@ const Aboutme = () =>{
 
         <div className="section-title">
           <h2>About</h2>
-          <h3>Hi I am Misa. I'm a junior full stack engineer </h3>
+          <h3>Hi I am Misa. Welcome to my web page </h3>
         </div>
 
         <div className="row">
@@ -19,15 +19,15 @@ const Aboutme = () =>{
             <img src={Myphoto} className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Full stack engineer  &amp; Web Developer.</h3>
+            <h3 style={{color:"#937861"}}>Get to Know Me More: Your Future Work Colleague </h3>
             <p className="fst-italic">
          
             </p>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li style={{background: "#fbe0e0"}}><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                  <li style={{background: "#e5d4ef"}}><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://mkuma5555.github.io/my-profile/profile.html"><span>Misa kumagai web link </span></a></li>
+                  <li style={{background: "#fbe0e0"}}><i className="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>English & Japanese</span></li>
+                  <li style={{background: "#e5d4ef"}}><i className="bi bi-chevron-right"></i> <strong>Favourite:</strong><span>Coffee Lover </span></li>
                   <li style={{background: "#d6e6ff"}}><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Melbourne </span></li>
                 </ul>
               </div>

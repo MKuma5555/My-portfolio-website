@@ -40,7 +40,7 @@ const skillsData= [
 
     return (
         <>
-        <section id="skills" className="skills section-bg" style={{background:"#eaeaea"}}>
+        <section id="skills" className="skills section-bg" style={{background:"#eae3df"}}>
             <div className="container" data-aos="fade-up">
 
             <div className="section-title">

@@ -7,13 +7,13 @@ const ContactPage = () =>{
     return (
         <>
 
-      <section id="contact" className="contact" style={{background:"#eaeaea"}}>
+      <section id="contact" className="contact" style={{background:"#eae3df"}}>
       <div className="container" data-aos="fade-up">
 
         <div className="section-title" >
           <h2>Contact</h2>
         </div>
-            <div className="info" style={{background:"#eaeaea"}}>
+            <div className="info" style={{background:"#eae3df"}}>
               <div className="address">
                 <i><Icon icon="bi:geo-alt" /></i>
                 <h4>Location:</h4>
