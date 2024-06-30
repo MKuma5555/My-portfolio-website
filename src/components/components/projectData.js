@@ -2,6 +2,7 @@ import wordleProject1 from "../../assets/img/portfolio/wordle.png"
 import project2 from "../../assets/img/portfolio/project2.png"
 import travelplannerProject3 from "../../assets/img/portfolio/travelplanner.png"
 import dietmateProject4 from "../../assets/img/portfolio/dietmate.png"
+import mywebsite from "../../assets/img/portfolio/mywebsite.png"
 import project1_1 from "../../assets/img/portfolio/project1-1.png"
 import project1_2 from "../../assets/img/portfolio/project1-2.png"
 import project1_3 from "../../assets/img/portfolio/project1-3.png"
@@ -10,6 +11,8 @@ import project4_2 from "../../assets/img/portfolio/project4-2.png"
 import project4_3 from "../../assets/img/portfolio/project4-3.png"
 import project3_1 from "../../assets/img/portfolio/project3-1.png"
 import project3_2 from "../../assets/img/portfolio/project3-2.png"
+import myweb1 from "../../assets/img/portfolio/myweb1.png"
+import myweb2 from "../../assets/img/portfolio/myweb2.png"
 
 const portfolioData = [
     {
@@ -65,6 +68,19 @@ const portfolioData = [
       samplePhoto2:project4_2,
       samplePhoto3:project4_3,
     },
+    {
+      projectName: "Portfolio Website",
+      githubLink: "https://github.com/MKuma5555/My-portfolio-website",
+      projectURL: "https://www.misakumagai.com",
+      projectImg: mywebsite,
+      category: "Web",
+      overview:"Thank you for visiting my portfolio website. This is my opportunity to showcase my skills and passion for software engineering. I didn’t arrive at this career directly; the path has been full of ups and downs. However, I’ve been reflecting on why I wanted to become an engineer—to create applications and websites that improve our lives. I love this job and look forward to continuously updating my skills.",
+      usage:"Built with React and SAP, deployed on Vercel, and connected to my custom domain.",
+      programmingTool:"HTML / CSS / React / JS /Bootstrap /Vercel",
+      samplePhoto1:myweb1,
+      samplePhoto2:myweb2,
+      samplePhoto3:mywebsite,
+    }
   ];
 
 
