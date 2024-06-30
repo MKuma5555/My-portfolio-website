@@ -52,7 +52,7 @@ const skillsData= [
                 {skillsData.map((skill, index) => (
 
                 <div key={index} className="progress">
-                    <span className="skill">{skill.name} <i className="val">{skill.level} % </i></span>
+                    <span className="skill">{skill.name} </span>
                     <div className="progress-bar-wrap">
                     <SkillBar 
                         className="progress-bar" role="progressbar"
