@@ -13,7 +13,7 @@ import project3_1 from "../../assets/img/portfolio/project3-1.png"
 import project3_2 from "../../assets/img/portfolio/project3-2.png"
 import myweb1 from "../../assets/img/portfolio/myweb1.png"
 import myweb2 from "../../assets/img/portfolio/myweb2.png"
-import fitnessmain from "../../assets/img/portfolio/myweb2.png"
+import fitnessmain from "../../assets/img/portfolio/FitnessGym.png"
 import fitness_01 from "../../assets/img/portfolio/Fitness-01.png"
 import fitness_02 from "../../assets/img/portfolio/Fitness-02.png"
 
