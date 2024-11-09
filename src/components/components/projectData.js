@@ -13,6 +13,9 @@ import project3_1 from "../../assets/img/portfolio/project3-1.png"
 import project3_2 from "../../assets/img/portfolio/project3-2.png"
 import myweb1 from "../../assets/img/portfolio/myweb1.png"
 import myweb2 from "../../assets/img/portfolio/myweb2.png"
+import fitnessmain from "../../assets/img/portfolio/myweb2.png"
+import fitness_01 from "../../assets/img/portfolio/Fitness-01.png"
+import fitness_02 from "../../assets/img/portfolio/Fitness-02.png"
 
 const portfolioData = [
     {
@@ -80,6 +83,19 @@ const portfolioData = [
       samplePhoto1:myweb1,
       samplePhoto2:myweb2,
       samplePhoto3:mywebsite,
+    },
+    {
+      projectName: "Fitness Gym Website",
+      githubLink: "https://github.com/MKuma5555/FitnessGymWeb/tree/main",
+      projectURL: "https://mkuma5555.github.io/FitnessGymWeb/",
+      projectImg: fitnessmain,
+      category: "Web",
+      overview:"The FitnessGym mockup website is a design concept that I created to improve my CSS skills. The website is designed with a clean, user-friendly interface, and aims to provide an example of a fitness gym's promotional site.",
+      usage:" Using Bootstrap's responsive grid system.I applied CSS to create a professional, clean look, using custom fonts, colors, and layout styles to enhance the user experience.JavaScript to implement a smooth window dropdown animation, enhancing interactivity and user engagement. ",
+      programmingTool:"HTML / CSS / JS /Bootstrap ",
+      samplePhoto1:fitness_01,
+      samplePhoto2:fitness_02,
+      samplePhoto3:fitnessmain,
     }
   ];
 
